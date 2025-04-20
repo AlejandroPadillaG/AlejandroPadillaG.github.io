@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jane Doe | Computational Mathematics PhD</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="Personal academic website of Jane Doe, PhD student in Computational Mathematics.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container flex-between">
+    <h1 class="logo"><a href="#">Jane Doe</a></h1>
+    <nav id="nav" class="nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="navToggle" class="hamburger" aria-label="Toggle navigation">
+      ☰
+    </button>
+  </div>
+</header>
+
+<main>
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I’m <strong>Jane Doe</strong>, a PhD student in the Department of Computational Mathematics at
+        Example University. My work focuses on high‑order numerical methods for
+        non‑linear partial differential equations arising in climate modelling.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== RESEARCH ========== -->
+  <section id="research" class="section alt">
+    <div class="container">
+      <h2>Research Interests</h2>
+      <ul class="bullets">
+        <li>High‑order discontinuous Galerkin schemes</li>
+        <li>Reduced‑order modelling and surrogate optimisation</li>
+        <li>GPU acceleration of scientific computing workflows</li>
+        <li>Open‑source scientific software engineering</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ========== PUBLICATIONS ========== -->
+  <section id="publications" class="section">
+    <div class="container">
+      <h2>Selected Publications</h2>
+      <ol class="pub-list">
+        <li>
+          Doe, J., Smith, A. & Nguyen, T.  
+          <em>Entropy‑stable DG methods for moist‑atmosphere dynamics</em>.  
+          <span class="venue">SIAM J. Sci. Comput.</span>, 2024.
+        </li>
+        <li>
+          Doe, J. & Chen, L.  
+          <em>Graph‑based hyper‑reduction for nonlinear PDEs</em>.  
+          <span class="venue">J. Computational Physics</span>, 2023.
+        </li>
+        <!-- Add more -->
+      </ol>
+    </div>
+  </section>
+
+  <!-- ========== CV ========== -->
+  <section id="cv" class="section alt">
+    <div class="container">
+      <h2>Curriculum Vitae</h2>
+      <p>
+        Download the full PDF&nbsp;→
+        <a class="btn" href="assets/cv.pdf" download>CV&nbsp;(PDF)</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== BLOG PREVIEW ========== -->
+  <section id="blog" class="section">
+    <div class="container">
+      <h2>Latest Blog Posts</h2>
+      <article class="post-preview">
+        <h3><a href="blog/first-post.html">My Workflow for Reproducible Experiments</a></h3>
+        <time datetime="2025-03-20">20 Mar 2025</time>
+        <p>A quick tour of how I use Snakemake, conda, and GitLab CI to keep my
+           computational experiments tidy and shareable.</p>
+        <a class="read-more" href="blog/index.html">See all posts →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:jane.doe@example.edu">jane.doe@example.edu</a></p>
+      <p>
+        GitHub: <a href="https://github.com/janedoe">janedoe</a> &nbsp;|&nbsp;
+        Google Scholar: <a href="https://scholar.google.com/citations?user=XXXXX">Profile</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    © 2025 Jane Doe — Built with pure HTML/CSS + JS
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
